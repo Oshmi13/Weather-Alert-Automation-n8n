@@ -19,11 +19,17 @@ The workflow runs automatically on a schedule without any manual intervention.
 
 ## Workflow Architecture
 
-```mermaid
-graph LR
-A[Schedule Trigger] --> B[HTTP Request]
-B --> C[JavaScript Code]
-C --> D[Gmail Send Message]
+```text
+Schedule Trigger
+       │
+       ▼
+HTTP Request
+       │
+       ▼
+JavaScript Code
+       │
+       ▼
+Gmail Send Message
 ```
 
 ## How It Works
