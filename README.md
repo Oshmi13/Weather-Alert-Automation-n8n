@@ -46,6 +46,13 @@ The screenshot below illustrates the complete **n8n workflow**, where a **Schedu
 </p>
 
 ---
+## 📧 Email Output
+
+After the workflow executes successfully, an email containing the latest weather information is automatically delivered to the recipient's inbox.
+
+<p align="center">
+  <img src="Email_2.png" alt="Weather Email Output" width="1000">
+</p>
 
 ## ⚙️ How It Works
 
